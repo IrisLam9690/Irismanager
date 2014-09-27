@@ -1,0 +1,1040 @@
+!SESSION 2014-05-09 20:36:12.121 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2014-05-09 20:36:16.770
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.jface 2 0 2014-05-09 20:37:35.769
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-05-09 20:37:35.769
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@1079279,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-05-09 20:37:36.369
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-05-09 20:37:36.472
+!MESSAGE Terminated Plug-in Dashboard because of invalid subscription
+
+!ENTRY com.genuitec.eclipse.core.common 1 0 2014-05-09 20:37:36.605
+!MESSAGE Missing action set: com.genuitec.eclipse.dashboard
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:01.320
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:01.500
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:01.652
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:01.763
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:01.921
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:02.029
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:02.299
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:02.472
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:02.711
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:02.843
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-09 20:38:02.942
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY com.genuitec.eclipse.core.common 1 0 2014-05-09 20:38:04.649
+!MESSAGE Missing action set: 
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.296
+!MESSAGE NLS unused message: action.moduleProjectWizardAction in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.343
+!MESSAGE NLS unused message: artifactComponent.artifact in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.343
+!MESSAGE NLS unused message: artifactComponent.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.343
+!MESSAGE NLS unused message: artifactComponent.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.343
+!MESSAGE NLS unused message: artifactComponent.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.343
+!MESSAGE NLS unused message: artifactComponent.name in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.343
+!MESSAGE NLS unused message: artifactComponent.package in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.343
+!MESSAGE NLS unused message: artifactComponent.packaging in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.343
+!MESSAGE NLS unused message: artifactComponent.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.343
+!MESSAGE NLS unused message: directoriesComponent.projectLayout in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.browseFs in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.browseVariables in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.browseWorkspace in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.choosePomDir in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.errorPomMissing in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.errorSelectPom in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.goals in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.goalsDialog.lifecyclePhases in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.goalsDialog.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.goalsLabel in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.358
+!MESSAGE NLS unused message: launch.mainTabName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.pomDirectoryDoesntExist in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.pomDirectoryEmpty in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.pomGroup in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.profilesLabel in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.propAddButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.propAddDialogTitle in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.propEditDialogTitle in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.propName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.propRemoveButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.propValue in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.propertyDialog.browseVariables in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.propertyDialog.name in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.374
+!MESSAGE NLS unused message: launch.propertyDialog.value in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: locationComponent.atExternal in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: locationComponent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: locationComponent.directory in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: locationComponent.inWorkspace in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: locationComponent.location in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: locationComponent.selectLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: plugin.markerArtifactResolutionError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: plugin.markerBuildError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: plugin.markerParsingError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: preferences.checksumPolicyFail in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: preferences.checksumPolicyIgnore in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: preferences.checksumPolicyWarn in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: preferences.debugOutput in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.389
+!MESSAGE NLS unused message: preferences.downloadSources in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.downloadJavadoc in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.globalChecksumPolicy in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.globalSettingsFile in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.goalOnImport in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.goalOnUpdate in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.localRepository in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.offline in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.refreshButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.reindexButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: preferences.userSettingsFile in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: projectSelectionDialog.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: resolverConfiguration.advanced in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: resolverConfiguration.enableResourceFiltering in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: resolverConfiguration.profiles in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.405
+!MESSAGE NLS unused message: resolverConfiguration.projectsForModules in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: resolverConfiguration.resolveWorkspaceProjects in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: resolverConfiguration.template in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: resolverConfiguration.templateDescription in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: resolverConfiguration.useMavenOutputFolders in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.page.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.page.deselectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.page.projects in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.page.refresh in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.page.root in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.page.scanningErrors in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.page.selectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.page.selectRootFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.import.validator.workspaceFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.module.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.421
+!MESSAGE NLS unused message: wizard.module.page.artifact.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.436
+!MESSAGE NLS unused message: wizard.module.page.parameters.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.436
+!MESSAGE NLS unused message: wizard.module.page.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.436
+!MESSAGE NLS unused message: wizard.module.page.parent.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.436
+!MESSAGE NLS unused message: wizard.module.page.parent.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.436
+!MESSAGE NLS unused message: wizard.module.page.parent.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.436
+!MESSAGE NLS unused message: wizard.module.page.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.436
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.nameExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.module.page.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.module.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.project.error.pomAlreadyExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.project.error.pomExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.project.job.creating in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.project.job.creatingProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.project.job.failed in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.project.page.archetype.archetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.452
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.archetype.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.archetype.details in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.repository in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.archetype.retrievingArchetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.467
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.clear in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.dependencies.add in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.dependencies.dependencies in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.dependencies.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.dependencies.remove in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.dependencies.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.483
+!MESSAGE NLS unused message: wizard.project.page.maven2.archetype.parameters.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.499
+!MESSAGE NLS unused message: wizard.project.page.maven2.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.499
+!MESSAGE NLS unused message: wizard.project.page.maven2.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.499
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.artifactID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.499
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.groupID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.499
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.packaging in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.499
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.parent in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.499
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.requiredProperty in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.514
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.514
+!MESSAGE NLS unused message: wizard.project.page.project.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.514
+!MESSAGE NLS unused message: wizard.project.page.project.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.514
+!MESSAGE NLS unused message: wizard.project.page.project.simpleProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.514
+!MESSAGE NLS unused message: wizard.project.page.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.514
+!MESSAGE NLS unused message: wizard.project.page.project.validator.invalidLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.514
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.514
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.514
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 20:54:32.530
+!MESSAGE NLS unused message: wizard.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-05-09 20:54:48.020
+!MESSAGE Unable to update index for central http://repo1.maven.org/maven2/
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error updating index
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:501)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Transfer for nexus-maven-repository-index.zip failed; Error transferring file
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadResource(DefaultIndexUpdater.java:247)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$1.invoke(DefaultIndexUpdater.java:87)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.run(DefaultIndexUpdater.java:169)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:63)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:491)
+	... 3 more
+!SUBENTRY 1 org.maven.ide.eclipse 4 -1 2014-05-09 20:54:48.020
+!MESSAGE Error updating index
+!STACK 0
+java.io.IOException: Transfer for nexus-maven-repository-index.zip failed; Error transferring file
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadResource(DefaultIndexUpdater.java:247)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$1.invoke(DefaultIndexUpdater.java:87)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.run(DefaultIndexUpdater.java:169)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:63)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:491)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2014-05-09 20:59:40.183
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2014-05-09 20:59:40.183
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1639d41,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@e91824,
+	expression=,sourcePriority=0)
+!SESSION 2014-05-11 16:15:38.331 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2014-05-11 16:15:46.281
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-05-11 16:16:17.840
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2014-05-11 16:16:45.553
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-05-11 16:16:45.553
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@1d08c1b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-05-11 16:16:46.467
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.core 1 0 2014-05-11 16:16:46.580
+!MESSAGE Terminated Plug-in Dashboard because of invalid subscription
+
+!ENTRY com.genuitec.eclipse.core.common 1 0 2014-05-11 16:16:47.151
+!MESSAGE Missing action set: com.genuitec.eclipse.dashboard
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.003
+!MESSAGE NLS unused message: action.moduleProjectWizardAction in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.004
+!MESSAGE NLS unused message: artifactComponent.artifact in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.005
+!MESSAGE NLS unused message: artifactComponent.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.006
+!MESSAGE NLS unused message: artifactComponent.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.007
+!MESSAGE NLS unused message: artifactComponent.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.008
+!MESSAGE NLS unused message: artifactComponent.name in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.010
+!MESSAGE NLS unused message: artifactComponent.package in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.011
+!MESSAGE NLS unused message: artifactComponent.packaging in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.012
+!MESSAGE NLS unused message: artifactComponent.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.013
+!MESSAGE NLS unused message: directoriesComponent.projectLayout in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.013
+!MESSAGE NLS unused message: launch.browseFs in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.014
+!MESSAGE NLS unused message: launch.browseVariables in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.015
+!MESSAGE NLS unused message: launch.browseWorkspace in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.016
+!MESSAGE NLS unused message: launch.choosePomDir in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.017
+!MESSAGE NLS unused message: launch.errorPomMissing in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.018
+!MESSAGE NLS unused message: launch.errorSelectPom in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.019
+!MESSAGE NLS unused message: launch.goals in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.020
+!MESSAGE NLS unused message: launch.goalsDialog.lifecyclePhases in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.021
+!MESSAGE NLS unused message: launch.goalsDialog.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.021
+!MESSAGE NLS unused message: launch.goalsLabel in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.022
+!MESSAGE NLS unused message: launch.mainTabName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.023
+!MESSAGE NLS unused message: launch.pomDirectoryDoesntExist in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.025
+!MESSAGE NLS unused message: launch.pomDirectoryEmpty in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.026
+!MESSAGE NLS unused message: launch.pomGroup in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.026
+!MESSAGE NLS unused message: launch.profilesLabel in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.027
+!MESSAGE NLS unused message: launch.propAddButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.028
+!MESSAGE NLS unused message: launch.propAddDialogTitle in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.029
+!MESSAGE NLS unused message: launch.propEditDialogTitle in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.030
+!MESSAGE NLS unused message: launch.propName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.031
+!MESSAGE NLS unused message: launch.propRemoveButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.032
+!MESSAGE NLS unused message: launch.propValue in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.032
+!MESSAGE NLS unused message: launch.propertyDialog.browseVariables in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.033
+!MESSAGE NLS unused message: launch.propertyDialog.name in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.034
+!MESSAGE NLS unused message: launch.propertyDialog.value in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.036
+!MESSAGE NLS unused message: locationComponent.atExternal in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.037
+!MESSAGE NLS unused message: locationComponent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.038
+!MESSAGE NLS unused message: locationComponent.directory in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.039
+!MESSAGE NLS unused message: locationComponent.inWorkspace in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.040
+!MESSAGE NLS unused message: locationComponent.location in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.041
+!MESSAGE NLS unused message: locationComponent.selectLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.042
+!MESSAGE NLS unused message: plugin.markerArtifactResolutionError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.043
+!MESSAGE NLS unused message: plugin.markerBuildError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.044
+!MESSAGE NLS unused message: plugin.markerParsingError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.045
+!MESSAGE NLS unused message: preferences.checksumPolicyFail in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.045
+!MESSAGE NLS unused message: preferences.checksumPolicyIgnore in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.046
+!MESSAGE NLS unused message: preferences.checksumPolicyWarn in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.047
+!MESSAGE NLS unused message: preferences.debugOutput in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.048
+!MESSAGE NLS unused message: preferences.downloadSources in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.049
+!MESSAGE NLS unused message: preferences.downloadJavadoc in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.050
+!MESSAGE NLS unused message: preferences.globalChecksumPolicy in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.051
+!MESSAGE NLS unused message: preferences.globalSettingsFile in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.052
+!MESSAGE NLS unused message: preferences.goalOnImport in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.053
+!MESSAGE NLS unused message: preferences.goalOnUpdate in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.054
+!MESSAGE NLS unused message: preferences.localRepository in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.055
+!MESSAGE NLS unused message: preferences.offline in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.056
+!MESSAGE NLS unused message: preferences.refreshButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.059
+!MESSAGE NLS unused message: preferences.reindexButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.060
+!MESSAGE NLS unused message: preferences.userSettingsFile in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.061
+!MESSAGE NLS unused message: projectSelectionDialog.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.062
+!MESSAGE NLS unused message: resolverConfiguration.advanced in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.063
+!MESSAGE NLS unused message: resolverConfiguration.enableResourceFiltering in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.064
+!MESSAGE NLS unused message: resolverConfiguration.profiles in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.064
+!MESSAGE NLS unused message: resolverConfiguration.projectsForModules in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.065
+!MESSAGE NLS unused message: resolverConfiguration.resolveWorkspaceProjects in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.066
+!MESSAGE NLS unused message: resolverConfiguration.template in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.067
+!MESSAGE NLS unused message: resolverConfiguration.templateDescription in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.068
+!MESSAGE NLS unused message: resolverConfiguration.useMavenOutputFolders in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.069
+!MESSAGE NLS unused message: wizard.import.page.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.079
+!MESSAGE NLS unused message: wizard.import.page.deselectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.081
+!MESSAGE NLS unused message: wizard.import.page.projects in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.081
+!MESSAGE NLS unused message: wizard.import.page.refresh in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.082
+!MESSAGE NLS unused message: wizard.import.page.root in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.083
+!MESSAGE NLS unused message: wizard.import.page.scanningErrors in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.084
+!MESSAGE NLS unused message: wizard.import.page.selectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.085
+!MESSAGE NLS unused message: wizard.import.page.selectRootFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.086
+!MESSAGE NLS unused message: wizard.import.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.087
+!MESSAGE NLS unused message: wizard.import.validator.workspaceFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.088
+!MESSAGE NLS unused message: wizard.module.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.089
+!MESSAGE NLS unused message: wizard.module.page.artifact.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.090
+!MESSAGE NLS unused message: wizard.module.page.parameters.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.092
+!MESSAGE NLS unused message: wizard.module.page.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.093
+!MESSAGE NLS unused message: wizard.module.page.parent.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.094
+!MESSAGE NLS unused message: wizard.module.page.parent.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.095
+!MESSAGE NLS unused message: wizard.module.page.parent.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.096
+!MESSAGE NLS unused message: wizard.module.page.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.097
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.098
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.nameExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.099
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.100
+!MESSAGE NLS unused message: wizard.module.page.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.101
+!MESSAGE NLS unused message: wizard.module.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.102
+!MESSAGE NLS unused message: wizard.project.error.pomAlreadyExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.104
+!MESSAGE NLS unused message: wizard.project.error.pomExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.105
+!MESSAGE NLS unused message: wizard.project.job.creating in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.106
+!MESSAGE NLS unused message: wizard.project.job.creatingProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.107
+!MESSAGE NLS unused message: wizard.project.job.failed in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.108
+!MESSAGE NLS unused message: wizard.project.page.archetype.archetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.109
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.109
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.110
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.111
+!MESSAGE NLS unused message: wizard.project.page.archetype.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.112
+!MESSAGE NLS unused message: wizard.project.page.archetype.details in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.113
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.114
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.repository in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.115
+!MESSAGE NLS unused message: wizard.project.page.archetype.retrievingArchetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.118
+!MESSAGE NLS unused message: wizard.project.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.120
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.121
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.122
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.clear in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.123
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.124
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.124
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.125
+!MESSAGE NLS unused message: wizard.project.page.dependencies.add in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.126
+!MESSAGE NLS unused message: wizard.project.page.dependencies.dependencies in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.127
+!MESSAGE NLS unused message: wizard.project.page.dependencies.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.128
+!MESSAGE NLS unused message: wizard.project.page.dependencies.remove in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.129
+!MESSAGE NLS unused message: wizard.project.page.dependencies.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.130
+!MESSAGE NLS unused message: wizard.project.page.maven2.archetype.parameters.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.131
+!MESSAGE NLS unused message: wizard.project.page.maven2.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.131
+!MESSAGE NLS unused message: wizard.project.page.maven2.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.132
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.artifactID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.133
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.groupID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.134
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.packaging in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.135
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.parent in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.136
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.requiredProperty in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.137
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.138
+!MESSAGE NLS unused message: wizard.project.page.project.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.138
+!MESSAGE NLS unused message: wizard.project.page.project.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.139
+!MESSAGE NLS unused message: wizard.project.page.project.simpleProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.140
+!MESSAGE NLS unused message: wizard.project.page.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.141
+!MESSAGE NLS unused message: wizard.project.page.project.validator.invalidLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.142
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.143
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.144
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:16:50.145
+!MESSAGE NLS unused message: wizard.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY com.genuitec.eclipse.core.common 1 0 2014-05-11 16:17:00.874
+!MESSAGE Missing action set: 
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:01.745
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:01.862
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:01.877
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:01.917
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:01.943
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:02.006
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:02.031
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:02.062
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:02.108
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:02.160
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-05-11 16:17:02.178
+!MESSAGE Installed snippet library: C:\Users\a\AppData\Local\Genuitec\MyEclipse 8.x Latest\configuration\org.eclipse.osgi\bundles\111\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-05-11 16:17:08.639
+!MESSAGE Unable to update index for central http://repo1.maven.org/maven2/
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error updating index
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:501)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Resource nexus-maven-repository-index.zip does not exist
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadResource(DefaultIndexUpdater.java:243)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$1.invoke(DefaultIndexUpdater.java:87)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.run(DefaultIndexUpdater.java:169)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:63)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:491)
+	... 3 more
+!SUBENTRY 1 org.maven.ide.eclipse 4 -1 2014-05-11 16:17:08.639
+!MESSAGE Error updating index
+!STACK 0
+java.io.IOException: Resource nexus-maven-repository-index.zip does not exist
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadResource(DefaultIndexUpdater.java:243)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$1.invoke(DefaultIndexUpdater.java:87)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.run(DefaultIndexUpdater.java:169)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:63)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:491)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
